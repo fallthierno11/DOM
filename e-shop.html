@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Otaku's Space</title>
+  <link rel="stylesheet" href="design.css"/>
+  <center> <h1 class="titre">Otaku's Space !</h1></center>
+</head>
+<body>
+ <center> 
+<div class="divmere">
+  
+  <div class="item">
+    <h2 class="nomdarticle">Naruto</h2><img src="naruto.png" alt="" height="200px">
+    <p>Prix: <span class="price">5000F</span></p>
+    <button onclick="adjustQuantity(this.parentNode, -1)">-</button>
+    <span class="quantity">0</span>
+    <button class="Plus-button" onclick="adjustQuantity(this.parentNode, 1)">+</button>
+    <button class="heart-button" onclick="toggleHeartColor(this)">&#10084;</button>
+    <button class="Supprimer" onclick="removeItem(this.parentNode)">Supprimer</button>
+  </div>
+
+  <div class="item">
+    <h2 class="nomdarticle">Sasuke</h2>
+    <img src="sasuke.png" alt="" height="200px">
+    <p>Prix: <span class="price">10000F</span></p>
+    <button onclick="adjustQuantity(this.parentNode, -1)">-</button>
+    <span class="quantity">0</span>
+    <button onclick="adjustQuantity(this.parentNode, 1)">+</button>
+    <button class="heart-button" onclick="toggleHeartColor(this)">&#10084;</button>
+    <button class="Supprimer" onclick="removeItem(this.parentNode)">Supprimer</button>
+  </div>
+
+  <div class="item">
+    <h2 class="nomdarticle">My H.A</h2>
+    <img src="my hero.png" alt="" height="200px">
+    <p>Prix:<span class="price">15000F</span></p>
+    <button onclick="adjustQuantity(this.parentNode, -1)">-</button>
+    <span class="quantity">0</span>
+    <button onclick="adjustQuantity(this.parentNode, 1)">+</button>
+    <button class="heart-button" onclick="toggleHeartColor(this)">&#10084;</button>
+    <button class="Supprimer" onclick="removeItem(this.parentNode)">Supprimer</button>
+  </div>
+  </div>
+ </center>
+</body>
+<h2 class="toto">Prix total: <span id="total">0Fcfa</span></h2>
+
+
+  <script src="script.java"></script>
+  <script>
+  
+ 

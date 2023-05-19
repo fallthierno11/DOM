@@ -1,0 +1,38 @@
+ .item {
+      margin-bottom: 10px;
+    }
+    .heart-button {
+      color: gray;
+      cursor: pointer;
+    }
+    .heart-button.clicked {
+      color: red;
+    }
+    
+    .Supprimer{
+      color: red;
+    }
+    body{
+      background-color: rgb(175, 77, 77);
+     
+    }
+    .divmere{
+      display: flex;
+      margin-left: 370px;
+    }
+    .titre{
+      color: aliceblue;
+      font-size: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .nomdarticle{
+      color: white;
+    }
+    .toto{
+      margin-left:530px;
+      color: white;
+      font-size: 40px;
+    }
+    
+     
+    
